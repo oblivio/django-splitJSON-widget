@@ -19,7 +19,7 @@ class SplitJSONWidget(forms.Widget):
         self.separator = sep
         self.debug = debug
         self._id = 'SplitJSONWidget-X'
-        Widget.__init__(self, attrs)
+        forms.Widget.__init__(self, attrs)
 
     def _as_text_field(self, name, key, value, is_sub=False):
         attrs = self.build_attrs(self.attrs, type='text',
