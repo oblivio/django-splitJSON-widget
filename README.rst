@@ -21,7 +21,7 @@ Installation
 
 Basic Configuration
 -------------------
-#. Create your model-form and set  DateTimeWidget widget to your DateTimeField  ::
+#. Create your model-form and set  SplitJSON widget to your field (JSON-encoded)  ::
 
     from django_splitjson_widget.widgets import SplitJSONWidget
 
