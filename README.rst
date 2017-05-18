@@ -1,7 +1,7 @@
-django_splitjson_widget
+django-splitjson-widget
 ======================
 
-``django_splitjson_widget``  is a simple and clean widget for JSONField or TextField (JSON-encoded).
+``django-splitjson-widget``  is a simple and clean widget for JSONField or TextField (JSON-encoded).
 
 
 Installation
@@ -9,9 +9,15 @@ Installation
 
 #. Install django_splitjson_widget using pip. For example::
 
-    pip install django_splitjson_widget
+    pip install git+git://github.com/oblivio/django-splitJSON-widget.git
 
-#. Add  ``django_splitjson_widget`` to your INSTALLED_APPS.
+
+#. Uninstall django_splitjson_widget using pip. For example::
+
+    pip uninstall django-splitjson-widget
+
+
+#. Add  ``django-splitjson-widget`` to your INSTALLED_APPS.
 
 Basic Configuration
 -------------------

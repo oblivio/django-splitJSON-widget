@@ -1,5 +1,4 @@
 from django import forms
-from django.forms import Widget
 from django import utils
 
 try:

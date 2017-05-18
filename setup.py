@@ -12,6 +12,7 @@ setup(name = "django_splitjson_widget",
     license = "GPL V3",
     include_package_data=True,
     install_requires = ['django'],
+    packages = ['oblivio'],
     classifiers = [
         'Environment :: Web Environment',
         'Framework :: Django',
