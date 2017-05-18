@@ -10,7 +10,6 @@ setup(name = "django_splitjson_widget",
     author_email = "oblivio.company@gmail.com",
     url = "https://github.com/oblivio/django-splitJSON-widget",
     license = "GPL V3",
-    packages = find_packages(),
     include_package_data=True,
     install_requires = ['django'],
     classifiers = [
