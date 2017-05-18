@@ -17,7 +17,7 @@ Installation
     pip uninstall django-splitjson-widget
 
 
-#. Add  ``django-splitjson-widget`` to your INSTALLED_APPS.
+#. Add  ``django_splitjson_widget`` to your INSTALLED_APPS.
 
 Basic Configuration
 -------------------
