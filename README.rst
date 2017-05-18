@@ -31,7 +31,7 @@ Basic Configuration
 	    def save(self, commit=True):
 		if 'data' in self.cleaned_data:
 		    self.instance.data = self.cleaned_data.get('data')
-		m = super(ProductDataForm, self).save(commit=commit)
+		m = super(ExampleForm, self).save(commit=commit)
 		return m
 	    class Meta:
 		fields = "__all__"
