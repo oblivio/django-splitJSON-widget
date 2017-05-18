@@ -5,11 +5,12 @@ from distutils.core import setup
 setup(name = "django_splitjson_widget",
     version = "1.0.0",
     description = "Simple and clean widget for JSONField or TextField(JSON-encoded)",
-    long_description = "Simple and clean widget for JSONField or TextField(JSON-encoded)",
+    long_description=open('README.rst').read(),
     author = "OBLIVIO LLC",
     author_email = "oblivio.company@gmail.com",
     url = "https://github.com/oblivio/django-splitJSON-widget",
     license = "GPL V3",
+    packages = find_packages(),
     include_package_data=True,
     install_requires = ['django'],
     classifiers = [
